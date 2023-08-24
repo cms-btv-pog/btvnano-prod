@@ -1,11 +1,11 @@
 campaign:
-  name: data_2022CDE_rereco_MuonEG_noPF
+  name: data_2022E_rereco_MuonEG_noPF
   crab_template: ../test/template_crab.py
 
   # User specific
-  workArea: data_2022CDE_rereco_MuonEG_noPF
+  workArea: data_2022E_rereco_MuonEG_noPF
   storageSite: T2_XXX
-  outLFNDirBase: /store/user/XXX/PFNano_Run3/data_2022CDE_rereco
+  outLFNDirBase: /store/user/XXX/PFNano_Run3/data_2022E_rereco
   voGroup: null # or leave empty
 
   # Campaign specific
@@ -22,6 +22,4 @@ campaign:
   # wait for tasks to finish before submitting entire campaigns,
   # it's better to request one dataset at a time (taking fairshare into account)
   datasets: |
-    /MuonEG/Run2022C-27Jun2023-v1/MINIAOD
-    /MuonEG/Run2022D-27Jun2023-v2/MINIAOD
     /MuonEG/Run2022E-27Jun2023-v1/MINIAOD
