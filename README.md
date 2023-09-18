@@ -5,12 +5,16 @@ Submit crab jobs for PFNano production using crabb.py.
 Step 1: setup the PFNano (current branch: `13_0_7_from124MiniAOD`)
  according to https://github.com/cms-jet/PFNano/tree/13_0_7_from124MiniAOD#recipe
 
+Step 1.1 : if PFNano is already installed previously
+
+`git pull origin 13_0_7_from124MiniAOD` # to incooperate the latest changes
+
 Step 2: setup `pfnano-prod`
 
 ```bash
 mkdir $CMSSW_BASE/src/PhysicsTools/PFNano/production
 cd $CMSSW_BASE/src/PhysicsTools/PFNano/production
-git clone https://github.com/colizz/pfnano-prod.git .
+git clone git@github.com:Ming-Yan/pfnano-prod.git . -b NanoV12
 ```
 
 Step 3: submit crab jobs configured in `crab_ymls/`.
