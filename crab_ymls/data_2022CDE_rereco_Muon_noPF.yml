@@ -22,6 +22,8 @@ campaign:
   # wait for tasks to finish before submitting entire campaigns,
   # it's better to request one dataset at a time (taking fairshare into account)
   datasets: |
+    /SingleMuon/Run2022C-27Jun2023-v1/MINIAOD
+    /DoubleMuon/Run2022C-27Jun2023-v1/MINIAOD
     /Muon/Run2022C-27Jun2023-v1/MINIAOD
     /Muon/Run2022D-27Jun2023-v2/MINIAOD
     /Muon/Run2022E-27Jun2023-v1/MINIAOD

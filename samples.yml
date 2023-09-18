@@ -91,6 +91,8 @@ mc_summer22EE:
         - /QCD_PT-800to1000_MuEnrichedPt5_TuneCP5_13p6TeV_pythia8/Run3Summer22EEMiniAODv3-124X_mcRun3_2022_realistic_postEE_v1-v1/MINIAODSIM
         - /QCD_PT-1000_MuEnrichedPt5_TuneCP5_13p6TeV_pythia8/Run3Summer22EEMiniAODv3-124X_mcRun3_2022_realistic_postEE_v1-v1/MINIAODSIM
     qcdincl:
+        - /QCD_PT-15to30_TuneCP5_13p6TeV_pythia8/Run3Summer22EEMiniAODv3-EpsilonPU_124X_mcRun3_2022_realistic_postEE_v1-v2/MINIAODSIM
+        - /QCD_PT-30to50_TuneCP5_13p6TeV_pythia8/Run3Summer22EEMiniAODv3-EpsilonPU_124X_mcRun3_2022_realistic_postEE_v1-v2/MINIAODSIM
         - /QCD_PT-50to80_TuneCP5_13p6TeV_pythia8/Run3Summer22EEMiniAODv3-124X_mcRun3_2022_realistic_postEE_v1-v2/MINIAODSIM
         - /QCD_PT-80to120_TuneCP5_13p6TeV_pythia8/Run3Summer22EEMiniAODv3-124X_mcRun3_2022_realistic_postEE_v1-v2/MINIAODSIM
         - /QCD_PT-120to170_TuneCP5_13p6TeV_pythia8/Run3Summer22EEMiniAODv3-124X_mcRun3_2022_realistic_postEE_v1-v2/MINIAODSIM
@@ -156,6 +158,7 @@ data_2022CDE_rereco:
         - /BTagMu/Run2022D-27Jun2023-v1/MINIAOD
         - /BTagMu/Run2022E-27Jun2023-v1/MINIAOD
     JetMET:
+        - /JetHT/Run2022C-27Jun2023-v2/MINIAOD
         - /JetMET/Run2022C-27Jun2023-v1/MINIAOD
         - /JetMET/Run2022D-27Jun2023-v2/MINIAOD
         - /JetMET/Run2022E-27Jun2023-v1/MINIAOD
@@ -164,6 +167,8 @@ data_2022CDE_rereco:
         - /EGamma/Run2022D-27Jun2023-v2/MINIAOD
         - /EGamma/Run2022E-27Jun2023-v1/MINIAOD
     Muon:
+        - /SingleMuon/Run2022C-27Jun2023-v1/MINIAOD
+        - /DoubleMuon/Run2022C-27Jun2023-v1/MINIAOD
         - /Muon/Run2022C-27Jun2023-v1/MINIAOD
         - /Muon/Run2022D-27Jun2023-v2/MINIAOD
         - /Muon/Run2022E-27Jun2023-v1/MINIAOD

@@ -22,6 +22,7 @@ campaign:
   # wait for tasks to finish before submitting entire campaigns,
   # it's better to request one dataset at a time (taking fairshare into account)
   datasets: |
+    /JetHT/Run2022C-27Jun2023-v2/MINIAOD
     /JetMET/Run2022C-27Jun2023-v1/MINIAOD
     /JetMET/Run2022D-27Jun2023-v2/MINIAOD
     /JetMET/Run2022E-27Jun2023-v1/MINIAOD
